@@ -99,7 +99,7 @@ def main():
         # Keep the script running indefinitely
         global keep_running
         while keep_running:
-            pass
+            time.sleep(1)
 
     except Exception as e:
         logger.error("An unexpected error occurred", exc_info=True)
